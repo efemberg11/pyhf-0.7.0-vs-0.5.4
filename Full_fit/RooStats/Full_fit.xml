@@ -1,0 +1,17 @@
+<!--
+This xml file created automatically on: 
+2022-12-2
+-->
+<!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
+
+<Combination OutputFilePrefix="Full_fit/RooStats/Full_fit" >
+
+
+  <Input>./Full_fit/RooStats//Full_fit_three_lep_presel_1jet.xml</Input>
+
+  <Measurement Name="Full_fit" Lumi="1" LumiRelErr="0.1" ExportOnly="True"  >
+    <POI>mu_XS_VVV</POI>  
+    <ParamSetting Const="True">Lumi</ParamSetting>
+  </Measurement> 
+
+</Combination>

@@ -1,0 +1,291 @@
+<!--
+This xml file created automatically on: 
+2022-12-2
+-->
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
+
+  <Channel Name="three_lep_presel_1jet" InputFile="" >
+
+    <Data HistoName="three_lep_presel_1jet_data_regBin" InputFile="Full_fit/Histograms/Full_fit_histos.root" HistoPath="three_lep_presel_1jet/data/nominal/"  /> 
+
+    <StatErrorConfig RelErrorThreshold="0" ConstraintType="Poisson" /> 
+
+    <Sample Name="WVZ"  HistoPath="three_lep_presel_1jet/WVZ/nominal/"  HistoName="three_lep_presel_1jet_WVZ_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="mu_R_WVZ"  High="1.04017"  Low="0.954437"   /> 
+      <OverallSys Name="ATLAS_PRW_DATASF"  High="0.994484"  Low="1.00579"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.01881"  Low="0.981527"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ISO"  High="1.00748"  Low="0.999917"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.994982"  Low="0.989953"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="1.00171"  Low="0.983296"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ISO_Stat"  High="1.00619"  Low="1.0012"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ISO_Syst"  High="1.00718"  Low="1.00022"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_1"  High="0.994948"  Low="1.00549"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_5"  High="0.967119"  Low="1.029"   /> 
+      <OverallSys Name="ATLAS_JES_EtaInter_Model"  High="0.992866"  Low="1.00724"   /> 
+      <OverallSys Name="ATLAS_JES_Flavor_Comp"  High="0.968122"  Low="1.03004"   /> 
+      <OverallSys Name="ATLAS_JES_Flavor_Resp"  High="1.01296"  Low="0.98562"   /> 
+      <OverallSys Name="ATLAS_JES_PU_OffsetNPV"  High="0.991117"  Low="1.00737"   /> 
+      <OverallSys Name="ATLAS_JES_PU_Rho"  High="0.981174"  Low="1.01933"   /> 
+      <NormFactor Name="mu_XS_VVV"  Val="1"  High="7"  Low="-7"  Const="False"   /> 
+      <HistoSys Name="mu_F_WVZ"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WVZ_mu_F_WVZ_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WVZ/mu_F_WVZ/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WVZ_mu_F_WVZ_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WVZ/mu_F_WVZ/"   /> 
+      <HistoSys Name="mu_R_WVZ"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WVZ_mu_R_WVZ_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WVZ/mu_R_WVZ/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WVZ_mu_R_WVZ_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WVZ/mu_R_WVZ/"   /> 
+      <HistoSys Name="ATLAS_PRW_DATASF"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WVZ_ATLAS_PRW_DATASF_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WVZ/ATLAS_PRW_DATASF/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WVZ_ATLAS_PRW_DATASF_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WVZ/ATLAS_PRW_DATASF/"   /> 
+      <HistoSys Name="ATLAS_JES_EffectiveNP_5"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WVZ_ATLAS_JES_EffectiveNP_5_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WVZ/ATLAS_JES_EffectiveNP_5/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WVZ_ATLAS_JES_EffectiveNP_5_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WVZ/ATLAS_JES_EffectiveNP_5/"   /> 
+      <HistoSys Name="ATLAS_JES_PU_OffsetMu"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WVZ_ATLAS_JES_PU_OffsetMu_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WVZ/ATLAS_JES_PU_OffsetMu/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WVZ_ATLAS_JES_PU_OffsetMu_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WVZ/ATLAS_JES_PU_OffsetMu/"   /> 
+      <HistoSys Name="ATLAS_JES_PU_Rho"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WVZ_ATLAS_JES_PU_Rho_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WVZ/ATLAS_JES_PU_Rho/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WVZ_ATLAS_JES_PU_Rho_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WVZ/ATLAS_JES_PU_Rho/"   /> 
+      <HistoSys Name="ATLAS_JER"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WVZ_ATLAS_JER_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WVZ/ATLAS_JER/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WVZ_ATLAS_JER_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WVZ/ATLAS_JER/"   /> 
+      <HistoSys Name="ATLAS_MET_SoftResPara"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WVZ_ATLAS_MET_SoftResPara_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WVZ/ATLAS_MET_SoftResPara/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WVZ_ATLAS_MET_SoftResPara_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WVZ/ATLAS_MET_SoftResPara/"   /> 
+      <HistoSys Name="ATLAS_MET_SoftResPerp"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WVZ_ATLAS_MET_SoftResPerp_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WVZ/ATLAS_MET_SoftResPerp/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WVZ_ATLAS_MET_SoftResPerp_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WVZ/ATLAS_MET_SoftResPerp/"   /> 
+      <HistoSys Name="ATLAS_MET_SoftTrk_ScaleUp"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WVZ_ATLAS_MET_SoftTrk_ScaleUp_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WVZ/ATLAS_MET_SoftTrk_ScaleUp/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WVZ_ATLAS_MET_SoftTrk_ScaleUp_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WVZ/ATLAS_MET_SoftTrk_ScaleUp/"   /> 
+      <HistoSys Name="ATLAS_MET_SoftTrk_ScaleDown"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WVZ_ATLAS_MET_SoftTrk_ScaleDown_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WVZ/ATLAS_MET_SoftTrk_ScaleDown/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WVZ_ATLAS_MET_SoftTrk_ScaleDown_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WVZ/ATLAS_MET_SoftTrk_ScaleDown/"   /> 
+    </Sample>
+
+
+    <Sample Name="VH_signal"  HistoPath="three_lep_presel_1jet/VH_signal/nominal/"  HistoName="three_lep_presel_1jet_VH_signal_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="ATLAS_PRW_DATASF"  High="1.03837"  Low="0.898002"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.01235"  Low="0.98779"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.995823"  Low="0.991876"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="0.998819"  Low="0.988903"   /> 
+      <NormFactor Name="mu_XS_VVV"  Val="1"  High="7"  Low="-7"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="WZ"  HistoPath="three_lep_presel_1jet/WZ/nominal/"  HistoName="three_lep_presel_1jet_WZ_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="mu_F_WZ"  High="0.991956"  Low="1.01621"   /> 
+      <OverallSys Name="mu_R_WZ"  High="0.956808"  Low="1.04533"   /> 
+      <OverallSys Name="WZ_XS"  High="1.2"  Low="0.8"   /> 
+      <OverallSys Name="ATLAS_PRW_DATASF"  High="0.992724"  Low="1.00491"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.01697"  Low="0.983314"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ISO"  High="1.00692"  Low="1.00065"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.994772"  Low="0.989715"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="1.00056"  Low="0.983979"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ISO_Syst"  High="1.0052"  Low="1.00237"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_5"  High="0.987485"  Low="1.01236"   /> 
+      <OverallSys Name="ATLAS_JES_Flavor_Comp"  High="0.989961"  Low="1.00989"   /> 
+      <OverallSys Name="ATLAS_JES_PU_Rho"  High="0.991245"  Low="1.00811"   /> 
+      <HistoSys Name="mu_R_WZ"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WZ_mu_R_WZ_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WZ/mu_R_WZ/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WZ_mu_R_WZ_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WZ/mu_R_WZ/"   /> 
+      <HistoSys Name="WZ_shape"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WZ_WZ_shape_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WZ/WZ_shape/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WZ_WZ_shape_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WZ/WZ_shape/"   /> 
+      <HistoSys Name="ATLAS_EL_SF_ID"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WZ_ATLAS_EL_SF_ID_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WZ/ATLAS_EL_SF_ID/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WZ_ATLAS_EL_SF_ID_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WZ/ATLAS_EL_SF_ID/"   /> 
+      <HistoSys Name="ATLAS_JES_EffectiveNP_5"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WZ_ATLAS_JES_EffectiveNP_5_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WZ/ATLAS_JES_EffectiveNP_5/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WZ_ATLAS_JES_EffectiveNP_5_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WZ/ATLAS_JES_EffectiveNP_5/"   /> 
+      <HistoSys Name="ATLAS_JES_Flavor_Comp"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WZ_ATLAS_JES_Flavor_Comp_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WZ/ATLAS_JES_Flavor_Comp/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WZ_ATLAS_JES_Flavor_Comp_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WZ/ATLAS_JES_Flavor_Comp/"   /> 
+      <HistoSys Name="ATLAS_JER"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_WZ_ATLAS_JER_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/WZ/ATLAS_JER/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_WZ_ATLAS_JER_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/WZ/ATLAS_JER/"   /> 
+    </Sample>
+
+
+    <Sample Name="lllvjj"  HistoPath="three_lep_presel_1jet/lllvjj/nominal/"  HistoName="three_lep_presel_1jet_lllvjj_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="ATLAS_PRW_DATASF"  High="0.994357"  Low="1.00208"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.01731"  Low="0.982961"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ISO"  High="1.00698"  Low="1.00026"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.994796"  Low="0.989739"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="1.00033"  Low="0.984275"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ISO_Syst"  High="1.00514"  Low="1.0021"   /> 
+      <HistoSys Name="ATLAS_PRW_DATASF"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_lllvjj_ATLAS_PRW_DATASF_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/lllvjj/ATLAS_PRW_DATASF/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_lllvjj_ATLAS_PRW_DATASF_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/lllvjj/ATLAS_PRW_DATASF/"   /> 
+    </Sample>
+
+
+    <Sample Name="ZZ"  HistoPath="three_lep_presel_1jet/ZZ/nominal/"  HistoName="three_lep_presel_1jet_ZZ_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="mu_F_ZZ"  High="0.979028"  Low="1.03842"   /> 
+      <OverallSys Name="mu_R_ZZ"  High="0.99214"  Low="0.995272"   /> 
+      <OverallSys Name="ZZ_XS"  High="1.2"  Low="0.8"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.01866"  Low="0.98168"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ISO"  High="1.00877"  Low="0.999857"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.995129"  Low="0.990587"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="1.00087"  Low="0.984896"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ISO_Syst"  High="1.00534"  Low="1.0033"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_7"  High="0.998842"  Low="0.991102"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_14"  High="0.990093"  Low="0.999158"   /> 
+      <OverallSys Name="ATLAS_JES_BJES"  High="0.990387"  Low="1"   /> 
+      <OverallSys Name="ATLAS_JES_Flavor_Comp"  High="1.00528"  Low="0.992292"   /> 
+      <OverallSys Name="ATLAS_JES_Flavor_Resp"  High="0.994266"  Low="1.0057"   /> 
+      <OverallSys Name="ATLAS_MU_MS"  High="0.990922"  Low="0.9998"   /> 
+      <OverallSys Name="ATLAS_MU_SAGITTA_RHO"  High="0.990854"  Low="1"   /> 
+      <OverallSys Name="ATLAS_EM_RES"  High="1.00046"  Low="0.990761"   /> 
+      <OverallSys Name="ATLAS_MET_SoftResPara"  High="0.990809"  Low="1.00919"   /> 
+      <OverallSys Name="ATLAS_MET_SoftTrk_ScaleUp"  High="0.990645"  Low="1.00936"   /> 
+      <HistoSys Name="mu_F_ZZ"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_mu_F_ZZ_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/mu_F_ZZ/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_mu_F_ZZ_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/mu_F_ZZ/"   /> 
+      <HistoSys Name="mu_R_ZZ"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_mu_R_ZZ_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/mu_R_ZZ/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_mu_R_ZZ_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/mu_R_ZZ/"   /> 
+      <HistoSys Name="ATLAS_PRW_DATASF"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_ATLAS_PRW_DATASF_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/ATLAS_PRW_DATASF/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_ATLAS_PRW_DATASF_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/ATLAS_PRW_DATASF/"   /> 
+      <HistoSys Name="ATLAS_EL_SF_ISO"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_ATLAS_EL_SF_ISO_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/ATLAS_EL_SF_ISO/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_ATLAS_EL_SF_ISO_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/ATLAS_EL_SF_ISO/"   /> 
+      <HistoSys Name="ATLAS_JES_EffectiveNP_6"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_ATLAS_JES_EffectiveNP_6_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/ATLAS_JES_EffectiveNP_6/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_ATLAS_JES_EffectiveNP_6_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/ATLAS_JES_EffectiveNP_6/"   /> 
+      <HistoSys Name="ATLAS_JES_EtaInter_Model"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_ATLAS_JES_EtaInter_Model_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/ATLAS_JES_EtaInter_Model/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_ATLAS_JES_EtaInter_Model_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/ATLAS_JES_EtaInter_Model/"   /> 
+      <HistoSys Name="ATLAS_JES_Flavor_Comp"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_ATLAS_JES_Flavor_Comp_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/ATLAS_JES_Flavor_Comp/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_ATLAS_JES_Flavor_Comp_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/ATLAS_JES_Flavor_Comp/"   /> 
+      <HistoSys Name="ATLAS_JES_Flavor_Resp"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_ATLAS_JES_Flavor_Resp_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/ATLAS_JES_Flavor_Resp/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_ATLAS_JES_Flavor_Resp_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/ATLAS_JES_Flavor_Resp/"   /> 
+      <HistoSys Name="ATLAS_JES_PU_Rho"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_ATLAS_JES_PU_Rho_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/ATLAS_JES_PU_Rho/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_ATLAS_JES_PU_Rho_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/ATLAS_JES_PU_Rho/"   /> 
+      <HistoSys Name="ATLAS_EM_RES"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_ATLAS_EM_RES_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/ATLAS_EM_RES/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_ATLAS_EM_RES_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/ATLAS_EM_RES/"   /> 
+      <HistoSys Name="ATLAS_MET_SoftResPara"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_ATLAS_MET_SoftResPara_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/ATLAS_MET_SoftResPara/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_ATLAS_MET_SoftResPara_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/ATLAS_MET_SoftResPara/"   /> 
+      <HistoSys Name="ATLAS_MET_SoftResPerp"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_ATLAS_MET_SoftResPerp_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/ATLAS_MET_SoftResPerp/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_ATLAS_MET_SoftResPerp_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/ATLAS_MET_SoftResPerp/"   /> 
+      <HistoSys Name="ATLAS_MET_SoftTrk_ScaleUp"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_ATLAS_MET_SoftTrk_ScaleUp_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/ATLAS_MET_SoftTrk_ScaleUp/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_ATLAS_MET_SoftTrk_ScaleUp_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/ATLAS_MET_SoftTrk_ScaleUp/"   /> 
+      <HistoSys Name="ATLAS_MET_SoftTrk_ScaleDown"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ZZ_ATLAS_MET_SoftTrk_ScaleDown_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ZZ/ATLAS_MET_SoftTrk_ScaleDown/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ZZ_ATLAS_MET_SoftTrk_ScaleDown_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ZZ/ATLAS_MET_SoftTrk_ScaleDown/"   /> 
+    </Sample>
+
+
+    <Sample Name="lllljj"  HistoPath="three_lep_presel_1jet/lllljj/nominal/"  HistoName="three_lep_presel_1jet_lllljj_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="ATLAS_PRW_DATASF"  High="0.979871"  Low="1.00716"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.02001"  Low="0.980379"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ISO"  High="1.00787"  Low="0.999672"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.994988"  Low="0.989961"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="1.00168"  Low="0.983344"   /> 
+      <HistoSys Name="ATLAS_PRW_DATASF"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_lllljj_ATLAS_PRW_DATASF_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/lllljj/ATLAS_PRW_DATASF/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_lllljj_ATLAS_PRW_DATASF_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/lllljj/ATLAS_PRW_DATASF/"   /> 
+    </Sample>
+
+
+    <Sample Name="Zjets"  HistoPath="three_lep_presel_1jet/Zjets/nominal/"  HistoName="three_lep_presel_1jet_Zjets_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="Zjets_XS"  High="1.4"  Low="0.6"   /> 
+      <OverallSys Name="ATLAS_PRW_DATASF"  High="0.971875"  Low="0.987391"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.03232"  Low="0.968714"   /> 
+      <OverallSys Name="ATLAS_EL_SF_RECO"  High="1.00551"  Low="0.994507"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ISO"  High="1.01495"  Low="1.00261"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.996429"  Low="0.99368"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="0.998583"  Low="0.991552"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ISO_Stat"  High="1.00888"  Low="1.00867"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ISO_Syst"  High="1.00947"  Low="1.00808"   /> 
+    </Sample>
+
+
+    <Sample Name="Zgamma"  HistoPath="three_lep_presel_1jet/Zgamma/nominal/"  HistoName="three_lep_presel_1jet_Zgamma_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="ATLAS_PRW_DATASF"  High="0.947415"  Low="0.983325"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.02297"  Low="0.977345"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ISO"  High="1.01634"  Low="0.995472"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.997444"  Low="0.994655"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="0.998566"  Low="0.99354"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ISO_Stat"  High="1.00591"  Low="1.0059"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ISO_Syst"  High="1.00596"  Low="1.00586"   /> 
+    </Sample>
+
+
+    <Sample Name="ttZ"  HistoPath="three_lep_presel_1jet/ttZ/nominal/"  HistoName="three_lep_presel_1jet_ttZ_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="ttZ_XS_QCDscale"  High="1.096"  Low="0.887"   /> 
+      <OverallSys Name="ttZ_XS_PDFunc"  High="1.04"  Low="0.96"   /> 
+      <OverallSys Name="ATLAS_PRW_DATASF"  High="0.991513"  Low="1.01594"   /> 
+      <OverallSys Name="ATLAS_FTAG_B0"  High="0.992706"  Low="1.00729"   /> 
+      <OverallSys Name="ATLAS_FTAG_B2"  High="1.00655"  Low="0.993455"   /> 
+      <OverallSys Name="ATLAS_FTAG_B3"  High="0.993946"  Low="1.00605"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.01838"  Low="0.981947"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ISO"  High="1.00652"  Low="0.999949"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.995412"  Low="0.990872"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="0.999779"  Low="0.986546"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_1"  High="0.981468"  Low="1.01628"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_5"  High="0.910957"  Low="1.09912"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_6"  High="1.0087"  Low="0.987126"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_7"  High="0.991257"  Low="1.00604"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_10"  High="1.00393"  Low="0.993495"   /> 
+      <OverallSys Name="ATLAS_JES_EtaInter_Model"  High="0.976494"  Low="1.02181"   /> 
+      <OverallSys Name="ATLAS_JES_EtaInter_Stat"  High="0.991395"  Low="1.00568"   /> 
+      <OverallSys Name="ATLAS_JES_Flavor_Comp"  High="0.904157"  Low="1.10531"   /> 
+      <OverallSys Name="ATLAS_JES_Flavor_Resp"  High="1.04126"  Low="0.955657"   /> 
+      <OverallSys Name="ATLAS_JES_PU_OffsetMu"  High="0.987626"  Low="1.00581"   /> 
+      <OverallSys Name="ATLAS_JES_PU_OffsetNPV"  High="0.973753"  Low="1.02055"   /> 
+      <OverallSys Name="ATLAS_JES_PU_Rho"  High="0.943676"  Low="1.04963"   /> 
+      <OverallSys Name="ATLAS_JER"  High="1.03013"  Low="0.969873"   /> 
+      <HistoSys Name="ATLAS_PRW_DATASF"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_PRW_DATASF_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_PRW_DATASF/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_PRW_DATASF_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_PRW_DATASF/"   /> 
+      <HistoSys Name="ATLAS_FTAG_B0"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_FTAG_B0_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_FTAG_B0/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_FTAG_B0_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_FTAG_B0/"   /> 
+      <HistoSys Name="ATLAS_JES_EffectiveNP_1"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_JES_EffectiveNP_1_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_JES_EffectiveNP_1/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_JES_EffectiveNP_1_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_JES_EffectiveNP_1/"   /> 
+      <HistoSys Name="ATLAS_JES_EffectiveNP_5"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_JES_EffectiveNP_5_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_JES_EffectiveNP_5/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_JES_EffectiveNP_5_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_JES_EffectiveNP_5/"   /> 
+      <HistoSys Name="ATLAS_JES_EffectiveNP_6"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_JES_EffectiveNP_6_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_JES_EffectiveNP_6/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_JES_EffectiveNP_6_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_JES_EffectiveNP_6/"   /> 
+      <HistoSys Name="ATLAS_JES_EffectiveNP_7"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_JES_EffectiveNP_7_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_JES_EffectiveNP_7/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_JES_EffectiveNP_7_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_JES_EffectiveNP_7/"   /> 
+      <HistoSys Name="ATLAS_JES_EtaInter_Model"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_JES_EtaInter_Model_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_JES_EtaInter_Model/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_JES_EtaInter_Model_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_JES_EtaInter_Model/"   /> 
+      <HistoSys Name="ATLAS_JES_Flavor_Comp"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_JES_Flavor_Comp_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_JES_Flavor_Comp/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_JES_Flavor_Comp_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_JES_Flavor_Comp/"   /> 
+      <HistoSys Name="ATLAS_JES_Flavor_Resp"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_JES_Flavor_Resp_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_JES_Flavor_Resp/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_JES_Flavor_Resp_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_JES_Flavor_Resp/"   /> 
+      <HistoSys Name="ATLAS_JES_PU_OffsetMu"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_JES_PU_OffsetMu_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_JES_PU_OffsetMu/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_JES_PU_OffsetMu_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_JES_PU_OffsetMu/"   /> 
+      <HistoSys Name="ATLAS_JES_PU_OffsetNPV"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_JES_PU_OffsetNPV_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_JES_PU_OffsetNPV/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_JES_PU_OffsetNPV_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_JES_PU_OffsetNPV/"   /> 
+      <HistoSys Name="ATLAS_JES_PU_Rho"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_JES_PU_Rho_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_JES_PU_Rho/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_JES_PU_Rho_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_JES_PU_Rho/"   /> 
+      <HistoSys Name="ATLAS_JER"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_JER_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_JER/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_JER_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_JER/"   /> 
+      <HistoSys Name="ATLAS_MU_ID"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_MU_ID_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_MU_ID/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_MU_ID_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_MU_ID/"   /> 
+      <HistoSys Name="ATLAS_EM_RES"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_EM_RES_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_EM_RES/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_EM_RES_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_EM_RES/"   /> 
+      <HistoSys Name="ATLAS_MET_SoftResPara"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_MET_SoftResPara_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_MET_SoftResPara/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_MET_SoftResPara_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_MET_SoftResPara/"   /> 
+      <HistoSys Name="ATLAS_MET_SoftTrk_ScaleDown"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_ttZ_ATLAS_MET_SoftTrk_ScaleDown_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/ttZ/ATLAS_MET_SoftTrk_ScaleDown/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_ttZ_ATLAS_MET_SoftTrk_ScaleDown_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/ttZ/ATLAS_MET_SoftTrk_ScaleDown/"   /> 
+    </Sample>
+
+
+    <Sample Name="tWZ"  HistoPath="three_lep_presel_1jet/tWZ/nominal/"  HistoName="three_lep_presel_1jet_tWZ_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="tWZ_XS"  High="1.1"  Low="0.72"   /> 
+      <OverallSys Name="ATLAS_PRW_DATASF"  High="0.997809"  Low="1.02398"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.0205"  Low="0.9799"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ISO"  High="1.00773"  Low="0.999966"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.995118"  Low="0.990794"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="1.00189"  Low="0.984081"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_1"  High="0.990665"  Low="1.00797"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_5"  High="0.973587"  Low="1.08073"   /> 
+      <OverallSys Name="ATLAS_JES_EffectiveNP_6"  High="1.00035"  Low="0.987242"   /> 
+      <OverallSys Name="ATLAS_JES_EtaInter_Model"  High="0.991936"  Low="0.99994"   /> 
+      <OverallSys Name="ATLAS_JES_Flavor_Comp"  High="0.96913"  Low="1.0859"   /> 
+      <OverallSys Name="ATLAS_JES_Flavor_Resp"  High="1.04114"  Low="0.977181"   /> 
+      <OverallSys Name="ATLAS_JES_PU_OffsetMu"  High="0.994586"  Low="1.01803"   /> 
+      <OverallSys Name="ATLAS_JES_PU_OffsetNPV"  High="0.975358"  Low="1.02296"   /> 
+      <OverallSys Name="ATLAS_JES_PU_Rho"  High="0.980092"  Low="1.04793"   /> 
+      <OverallSys Name="ATLAS_JER"  High="1.03157"  Low="0.968432"   /> 
+      <OverallSys Name="ATLAS_MU_MS"  High="1.00053"  Low="0.990148"   /> 
+      <OverallSys Name="ATLAS_EM_RES"  High="1.002"  Low="0.984228"   /> 
+      <OverallSys Name="ATLAS_EM_SCALE"  High="0.99973"  Low="0.987644"   /> 
+    </Sample>
+
+
+    <Sample Name="tZ"  HistoPath="three_lep_presel_1jet/tZ/nominal/"  HistoName="three_lep_presel_1jet_tZ_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="tZ_XS"  High="1.5"  Low="0.5"   /> 
+      <OverallSys Name="ATLAS_PRW_DATASF"  High="0.991304"  Low="1.01433"   /> 
+      <OverallSys Name="ATLAS_FTAG_B0"  High="0.990576"  Low="1.00942"   /> 
+      <OverallSys Name="ATLAS_FTAG_B2"  High="1.00812"  Low="0.991875"   /> 
+      <OverallSys Name="ATLAS_FTAG_B3"  High="0.993443"  Low="1.00656"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.01691"  Low="0.983365"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ISO"  High="1.00592"  Low="1.00062"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.994902"  Low="0.989776"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="0.999751"  Low="0.984966"   /> 
+      <HistoSys Name="ATLAS_PRW_DATASF"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_tZ_ATLAS_PRW_DATASF_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/tZ/ATLAS_PRW_DATASF/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_tZ_ATLAS_PRW_DATASF_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/tZ/ATLAS_PRW_DATASF/"   /> 
+      <HistoSys Name="ATLAS_FTAG_B0"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_tZ_ATLAS_FTAG_B0_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/tZ/ATLAS_FTAG_B0/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_tZ_ATLAS_FTAG_B0_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/tZ/ATLAS_FTAG_B0/"   /> 
+      <HistoSys Name="ATLAS_FTAG_B2"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_tZ_ATLAS_FTAG_B2_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/tZ/ATLAS_FTAG_B2/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_tZ_ATLAS_FTAG_B2_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/tZ/ATLAS_FTAG_B2/"   /> 
+    </Sample>
+
+
+    <Sample Name="VH_other"  HistoPath="three_lep_presel_1jet/VH_other/nominal/"  HistoName="three_lep_presel_1jet_VH_other_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="VH_XS"  High="1.3"  Low="0.7"   /> 
+      <OverallSys Name="ATLAS_PRW_DATASF"  High="1.04413"  Low="0.966224"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.00599"  Low="0.994042"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.99211"  Low="0.985567"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="0.998014"  Low="0.979724"   /> 
+    </Sample>
+
+
+    <Sample Name="others"  HistoPath="three_lep_presel_1jet/others/nominal/"  HistoName="three_lep_presel_1jet_others_regBin"  InputFile="Full_fit/Histograms/Full_fit_histos.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="ATLAS_lumi"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="ATLAS_PRW_DATASF"  High="0.990465"  Low="1.0143"   /> 
+      <OverallSys Name="ATLAS_FTAG_B0"  High="0.987789"  Low="1.01221"   /> 
+      <OverallSys Name="ATLAS_FTAG_B2"  High="1.01023"  Low="0.989766"   /> 
+      <OverallSys Name="ATLAS_FTAG_B3"  High="0.992238"  Low="1.00776"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ID"  High="1.0304"  Low="0.97018"   /> 
+      <OverallSys Name="ATLAS_EL_SF_ISO"  High="1.00997"  Low="1.00422"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Stat"  High="0.996351"  Low="0.992292"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ID_Syst"  High="0.99924"  Low="0.989424"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ISO_Stat"  High="1.00723"  Low="1.00696"   /> 
+      <OverallSys Name="ATLAS_MU_SF_ISO_Syst"  High="1.0083"  Low="1.00589"   /> 
+      <HistoSys Name="ATLAS_PRW_DATASF"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_others_ATLAS_PRW_DATASF_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/others/ATLAS_PRW_DATASF/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_others_ATLAS_PRW_DATASF_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/others/ATLAS_PRW_DATASF/"   /> 
+      <HistoSys Name="ATLAS_FTAG_B0"  HistoFileLow="Full_fit/Histograms/Full_fit_histos.root"  HistoNameLow="three_lep_presel_1jet_others_ATLAS_FTAG_B0_Shape_Down_regBin"  HistoPathLow="three_lep_presel_1jet/others/ATLAS_FTAG_B0/"  HistoFileHigh="Full_fit/Histograms/Full_fit_histos.root"  HistoNameHigh="three_lep_presel_1jet_others_ATLAS_FTAG_B0_Shape_Up_regBin"  HistoPathHigh="three_lep_presel_1jet/others/ATLAS_FTAG_B0/"   /> 
+    </Sample>
+
+
+
+  </Channel>  
