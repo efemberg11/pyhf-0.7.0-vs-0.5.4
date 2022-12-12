@@ -25,7 +25,6 @@ model, data = cabinetry.model_utils.model_and_data(w)
 fit_results = cabinetry.fit.fit(model, data, minos=model.config.poi_name, custom_fit=True, tolerance=0.01, maxiter = 30000)
 
 for idx in range(len(fit_results.labels)):
-        #print('ranking')
         print(f' {idx} {fit_results.labels[idx]} {fit_results.bestfit[idx]:.7f}+-{fit_results.uncertainty[idx]:.5f}')
 
 
