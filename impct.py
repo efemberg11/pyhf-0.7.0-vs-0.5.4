@@ -2,8 +2,6 @@
 from pathlib import Path
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.ticker as mticker
 import pyhf
 import pyhf.readxml
 import time
@@ -11,11 +9,9 @@ import iminuit
 
 begin_o = time.time()
 
-chanal = [  'SR_WVZ_NJ1',
-            #'SR_WVZ_NJ2',
-            #'SR_WVZ_NJ3'
-            ]#, 'ttZ_3L_CR']
-meas_name = 'WVZ_3LJs_Clean_NoSyst_NJsInclTrain_VS05_NT400_SplusB_AddSyst_WZ1W'
+chanal = [  'three_lep_presel_1jet']
+meas_name = 'Full_fit'
+
 
 spec = pyhf.readxml.parse(meas_name+'/RooStats/'+meas_name+'.xml', Path.cwd(),)# track_progress=True)
 
@@ -123,14 +119,8 @@ def get_impact_data():
     
     for i, width in enumerate(widths):
         if width is None:
-            impacts.append(0)
+            continue
         if i == model.config.poi_index:
-            continue
-        if i ==41:
-            impacts.append([0, 0, 0, 0])
-            continue
-        if i ==21:
-            impacts.append([0, 0, 0, 0])
             continue
         if i % 5 == 0:
             print(i)
@@ -161,7 +151,7 @@ pullerr = pyhf.tensorlib.concatenate(
 
 
 
-# impacts,labels = get_impact_data()
+impacts,labels = get_impact_data()
 # # print(impacts)
 # # print(b)
 
